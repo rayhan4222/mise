@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    max-width: 100%;
+}
+.t-c{
+    text-align: center;
+}
+.t-r{
+    text-align: right;
+}
+.t-l{
+    text-align: left;
+}
+.max-with{
+    width: 1024px;
+    margin: auto;
+}
+/*heder*/
+.heder{
+    background: #4834d4;
+}
+.heder-left{
+    float: left;
+    width: 30%;
+}
+
+.heder-left img{
+    width: 200px;
+    height: auto;
+}
+
+.heder-right{
+    float: right;
+    width: 70%;
+}
+.heder-right ul{
+    text-align: right;
+}
+.heder-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.heder-right ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    line-height: 70px;
+    padding: 0 25px;
+    border-right: 1px solid #fff;
+    transition: .4s;
+}
+.heder-right ul li a:hover{
+    background: #686de0;
+}
+/*banner*/
+
+.banner{
+    background: url(https://miro.medium.com/max/11232/1*718Rp957TTYXCMegVIUK7g.jpeg) no-repeat center;
+    background-size:cover;
+    padding: 200px 0;
+}
+.banner-item{}
+.banner-item h1{
+    background:#bd2edd71;
+    color: #fff;
+    display: inline-block;
+    font-size:30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: .4s;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.banner-item h1:hover{
+    background:#be2edd;
+}
+.banner-item h2{
+    background:#4934d483 ;
+    color: #fff;
+    max-width: 550px;
+    margin: auto;
+    font-size: 25px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    transition: .4s;
+    cursor: pointer;
+}
+.banner-item h2:hover{
+    background:#1b2086b4;
+}
+/*about*/
+.about{
+    background: #dff9fba4;
+    padding: 30px;
+}
+.about p{
+    font-size: 20px;
+}
+.about h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+/*servise*/
+.service{
+    margin-top: 60px;
+}
+.service-left{
+    float: left;
+    width: 31.3%;
+    border: 1px solid #ddd;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.service-left span{
+    display: block;
+    background:#be2edd;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    font-size: 30px;
+    line-height: 60px;
+    color:red;
+    border-radius: 20px 0 20px 0;
+    margin-bottom: 15px;
+
+}
+.service-left h2{
+    font-size: 30px;
+    margin-bottom: 7px;
+}
+
+/*blog*/
+.blog{
+    margin-top: 60px;
+}
+.blog-left{
+    float: left;
+    width: 70%;
+}
+.blog-right{
+    float: right;
+    width: 25%;
+}
+.blog-item{
+    float: left;
+    margin-bottom: 20px;
+}
+.blog-item img{
+    float: left;
+    width: 160px;
+    margin: auto;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0.4);
+    cursor: pointer;
+}
+.blog-right h2{
+    font-size: 35px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+.blog-right ul{
+    list-style: none;
+}
+.blog-right ul li{
+    border: 1px solid #ddd;
+    background:#fafafa;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+}
+.blog-right ul li:hover{
+    background: #dff9fb;
+}
+/*bottom*/
+
+.fotter{
+    background: #130f40;
+    color: #fff;
+    padding: 20px;
+}
+.fotter-left{
+    float: left;
+    width: 50%;
+}
+.fotter-right{
+    float: right;
+    width: 50%;
+
+}
+.col{
+    text-align: right;
+}
+.col li{
+    display: inline-block;
+}
+.col li a{
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;
+}
+.col li a:hover{}
+
